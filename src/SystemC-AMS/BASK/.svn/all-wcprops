@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK
+END
+ltf_nd_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/ltf_nd_filter.h
+END
+rectifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/rectifier.h
+END
+bask_mod.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/bask_mod.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/main.cpp
+END
+sin_src.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/sin_src.h
+END
+sampler.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/sampler.h
+END
+mixer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/mixer.h
+END
+bit_src.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/bit_src.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/Makefile
+END
+bask_demod.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/mkoe/svn/sysmodel/!svn/ver/952/userdirs/gilmarbeserra/trunk/src/SYSTEMC_AMS/BASK/bask_demod.h
+END

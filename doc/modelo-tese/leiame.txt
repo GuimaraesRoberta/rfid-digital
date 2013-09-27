@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------------------------------
+Se você gosta de sofrer, o diretório modelo-msword contém um modelo para o Word. 
+
+Mas agora o sofrimento com o Word acabou! No diretório modelo-latex tem um modelo para o Latex.
+
+O modelo Latex serve tanto para relatório de trabalho de graduação, como para dissertação de mestrado e tese de doutorado. Ele segue normas estabelecidas e bibliografia no formato ANBT. O modelo está bem documentado com comentários no arquivo principal, que chama-se "relatorio.tex". Também está incluído um arquivo projeto TexNicCenter "relatorio.tcp". 
+O projeto está dividido em vários arquivos secundários que começam em "cap_", para capítulos, 
+e "anexo_", para os anexos. Esses arquivos secundários podem ser também editados em alto nível com 
+o software Scientifc WorkPlace. Não abrir "relatorio.tex" no Scientific WorkPlace, sob pena 
+de alteração da formatação. 
+
+Nesta versão, o autor pode escolher entre dois estilos:
+ft1unb.sty : usa fonte Times
+ft2unb.sty : usa fonte padrão do Latex
+A escolha do modelo é feita logo no preâmbulo do arquivo relatorio.tex. 
+
+Para ter uma idéia da aparência do modelo, veja os arquivos "relatorio_ft1unb.pdf" e "relatorio_ft2unb.pdf" no Acrobat Reader.
+
+Divirta-se!
+
+Prof. Geovany Araujo Borges
+Dep. de Eng. Elétrica - FT - UnB
+-------------------------------------------------------------------------------------------------------

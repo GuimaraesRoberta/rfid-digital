@@ -1,0 +1,50 @@
+ 
+CC     = g++
+OPT    = -O3
+DEBUG  = -g
+OTHER  = -Wall
+
+
+CFLAGS = $(OPT) $(OTHER) -Wno-deprecated
+# CFLAGS = $(DEBUG) $(OTHER)
+
+
+MODULE = tb_integ
+
+SRCS = tb_integ.cpp
+
+OBJS = $(SRCS:.cpp=.o)
+
+SYSTEMCAMS = /usr/local/systemc-ams-1.0Beta2
+SYSTEMC = /usr/local/systemc-2.2.0
+
+TARGET_ARCH = linux
+
+
+INCDIR = -I. -I.. -I$(SYSTEMC)/include -I$(SYSTEMCAMS)/include
+LIBDIR = -L. -L.. -L$(SYSTEMC)/lib-$(TARGET_ARCH) -L$(SYSTEMCAMS)/lib-$(TARGET_ARCH)
+
+LIBS   = -lpthread -lsystemc-ams -lsystemc -lm $(EXTRA_LIBS)
+
+
+EXE    = $(MODULE).exe
+
+.SUFFIXES: .cc .cpp .o .x
+
+
+$(EXE): $(OBJS) $(SYSTEMC)/lib-$(TARGET_ARCH)/libsystemc.a $(SYSTEMCAMS)/lib-$(TARGET_ARCH)/libsystemc-ams.a
+	$(CC) $(DEBUG) $(CFLAGS) $(INCDIR) $(LIBDIR) -o $@ $(OBJS) $(LIBS) 2>&1 | c++filt
+
+
+all: $(EXE)	
+	
+.cpp.o:
+	$(CC) $(DEBUG) $(CFLAGS) $(INCDIR) -c $<
+
+.cc.o:
+	$(CC) $(DEBUG) $(CFLAGS) $(INCDIR) -c $<
+
+clean::
+	rm -f $(OBJS) *~ $(EXE) core
+
+
